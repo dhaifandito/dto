@@ -9,7 +9,7 @@ export default function (props) {
         </p>
         <div
           className="w-60 h-1 m-2"
-          style={{ backgroundColor: props.otherColor }}
+          style={{ backgroundColor: props.otherColor }} 
         ></div>
         <div className="flex justify-center items-center"></div>
       </div>
@@ -21,7 +21,7 @@ export default function (props) {
             className="rounded-full w-36 h-36 lg:w-60 lg:h-60 flex items-center mt-3 lg:mt-0"
           />
         </div>
-        <div className="lg:grid grid-cols-subgrid gap-4 col-span-2 mt-8 px-8 lg:px-0">
+        <div className="lg:grid gap-4 col-span-2 mt-8 px-8 lg:px-0">
             <p>
           <span style={{ color: props.otherColor }}>dto.</span> is an antithesis
           of any movement. Not everything needs to be done
